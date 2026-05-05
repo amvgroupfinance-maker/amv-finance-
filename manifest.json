@@ -1,0 +1,33 @@
+{
+  "name": "AMV Group Finance OS",
+  "short_name": "AMV Finance",
+  "description": "Sistema financiero corporativo — AMV Group LLC · Puerto Rico",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#060608",
+  "theme_color": "#d4a843",
+  "lang": "es",
+  "scope": "/",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/#dashboard"
+    },
+    {
+      "name": "Agente CPA",
+      "short_name": "CPA Bot",
+      "url": "/#cpa"
+    }
+  ]
+}
